@@ -33,3 +33,8 @@ form hr {
     object-fit: cover;
     border-radius: var(--border-radius-small);
   }
+
+  .update-form input,
+  textarea {
+    background-color: var(  --color-gray-300);
+  }

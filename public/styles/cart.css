@@ -1,7 +1,7 @@
 .cart-item {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-gray-700);
+  background-color: var(--color-gray-300);
   padding: var(--space-4);
   margin: var(--space-4) 0;
   border-radius: var(--border-radius-medium);
