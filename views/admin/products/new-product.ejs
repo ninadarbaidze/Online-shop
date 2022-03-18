@@ -1,0 +1,18 @@
+<%- include('../../shared/includes/head', { pageTitle: 'Add new product' }) %>
+<link rel="stylesheet" href="/styles/forms.css">
+<script src="/scripts/image-preview.js" defer></script>
+</head>
+<body>
+  <%- include('../../shared/includes/header') %>
+  <main>
+    <h1>Add new Product</h1>
+    <%- include('includes/product-form', { submitPath: '/admin/products', product: {
+      // since product-form is prepopulate for using in editing, we're adding emtyy string in new product entry
+      title: '',
+      summary: '',
+      price: '',
+      description: ''
+    },
+    imageRequired: true }) %>
+  </main>
+<%- include('../../shared/includes/footer') %>
