@@ -1,12 +1,14 @@
 # A Basic Online Shop
 
-This is a basic online shop with CRUD operations and various functionality noted below. 
+This is a basic online shop with CRUD operations, payment method and various functionality noted below. 
 
 ### Demo:
 
 
 
-https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-83af-718b695c2175.mp4
+
+https://user-images.githubusercontent.com/33086430/159127868-c9b8218a-0c28-4001-bd1b-0a6647aa7233.mp4
+
 
 
 
@@ -19,6 +21,7 @@ https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-
 - Node.js with express.js framework for back-end
 - MongoDB for database management
 - Design pattern - MVC
+- Payment method - Stripe
 - Sending AJAX requests
 
 ### Packages:
@@ -46,7 +49,7 @@ https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-
 - Users can:
     - Add product to Cart
     - Change product quantity and update cart, cart is dynamic so everything will change accordingly due to user changes.
-    - Buy product
+    - Buy products via stripe
 - User type Validation
     - Registered or non registered users can’t have access to the administrator page.
     - Only registered users can place the order.
