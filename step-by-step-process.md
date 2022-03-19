@@ -24,7 +24,7 @@
 20. manage login. in auth.model I added getUserWithSameEmail() method to User constructor, which searchs for the specific email in database.  
 
 
-## In auth.controllers we create post method for login, where:
+## Add login functionality
 
 1. create new User object and pass only email and password arguments.   
 2. call getUserWithSameEmail() method which searches for the specific entered email.  
