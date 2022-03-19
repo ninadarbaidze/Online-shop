@@ -185,6 +185,14 @@
    - call order.save(), save is Order class method, where we have specific if condition, it checks if order exists, it's just updating order.status, so user can also see updated status.
 
 
+## Add payment method
+
+1. Install stripe library.
+2. Create a checkout session in order.controllers, where my online shop data is passed dynamically.
+3. Create success and failure pages with specific routes to redirect after payment.
+
+
+
         
 
     
