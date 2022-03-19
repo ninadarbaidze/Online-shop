@@ -13,6 +13,23 @@ https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-
 
 #### Shop development step by step process explained [here](https://github.com/ninadarbaidze/Online-shop/blob/main/step-by-step-process.md).
 
+### Technologies used:
+
+- Vanilla Javascript for front-end
+- Node.js with express.js framework for back-end
+- MongoDB for database management
+- Design pattern - MVC
+- Sending AJAX requests
+
+### Packages:
+- Live server - Nodemon
+- Security - CSRF
+- Templating engine - EJS
+- Password hashing - Bcryptjs 
+- Session management - express-session
+- File uploading - Multer
+- Unique identifiers generator - uuid
+
 
 ### Functionality:
 
@@ -34,23 +51,6 @@ https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-
     - Registered or non registered users can’t have access to the administrator page.
     - Only registered users can place the order.
     - User authentication.
-
-### Technologies used:
-
-- Vanilla Javascript for front-end
-- Node.js with express.js framework for back-end
-- MongoDB for database management
-- Design pattern - MVC
-- Sending AJAX requests
-
-### Packages:
-- Live server - Nodemon
-- Security - CSRF
-- Templating engine - EJS
-- Password hashing - Bcryptjs 
-- Session management - express-session
-- File uploading - Multer
-- Unique identifiers generator - uuid
 
 
 
