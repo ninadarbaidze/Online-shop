@@ -73,7 +73,7 @@ main {
   left: 0;
   height: calc(100vh - 5rem);
   width: 100%;
-  background-color: var(--color-gray-700);
+  background-color: var(--color-gray-300);
   display: none;
   flex-direction: column;
   align-items: center;
@@ -92,7 +92,7 @@ main {
 #mobile-menu .nav-items a,
 #mobile-menu .nav-items button {
   font-size: 1.75rem;
-  color: var(--color-primary-100);
+  color: var(--color-primary-400);
 }
 
 @media (min-width: 48rem) {
