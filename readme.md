@@ -1,11 +1,23 @@
+# A Basic Online Shop
+
 This is a basic online shop with CRUD operations and various functionality noted below. 
 
-Functionality:
+### Demo:
+
+
+
+
+#### Shop development step by step process explained [here](https://github.com/ninadarbaidze/Online-shop/blob/main/step-by-step-process.md).
+
+
+### Functionality:
 
 - Registration, Login
     - Form validation
     - Flashing errors
-- Two type of users: admins and regular users
+
+**_Two type of users: admins and regular users_**
+
 - Admins can:
     - Add products with images (image upload functionality and image preview)
     - Edit&Delete existing product
@@ -19,7 +31,7 @@ Functionality:
     - Only registered users can place the order.
     - User authentication.
 
-Technologies used:
+### Technologies used:
 
 - Vanilla Javascript for front-end
 - Node.js with express.js framework for back-end
@@ -27,7 +39,7 @@ Technologies used:
 - Design pattern - MVC
 - Sending AJAX requests
 
-Packages:
+### Packages:
 - Live server - Nodemon
 - Security - CSRF
 - Templating engine - EJS
@@ -35,4 +47,6 @@ Packages:
 - Session management - express-session
 - File uploading - Multer
 - Unique identifiers generator - uuid
+
+
 
