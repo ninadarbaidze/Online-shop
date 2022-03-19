@@ -6,6 +6,10 @@ This is a basic online shop with CRUD operations and various functionality noted
 
 
 
+https://user-images.githubusercontent.com/33086430/159115014-00fa29a5-8b2d-41a0-83af-718b695c2175.mp4
+
+
+
 
 #### Shop development step by step process explained [here](https://github.com/ninadarbaidze/Online-shop/blob/main/step-by-step-process.md).
 
